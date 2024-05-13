@@ -1,3 +1,16 @@
+import AddCountryForm from "@/components/AddCountryForm";
+import CountriesList from "@/components/CountriesList";
+
+
 export default function Home() {
-  return <h1>Hello, wilder !</h1>;
+
+  return (
+    <div className="flex flex-col justify-center items-center  h-screen">
+      <AddCountryForm />
+      <CountriesList />
+    </div>
+  )
+
+
+    ;
 }
